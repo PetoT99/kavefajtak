@@ -1,3 +1,35 @@
+/* NAV */
 nav{
     background-color: #1f5b25;
+}
+.navbar-brand{
+    padding-right: 55px;
+}
+/* BACKGROUND */
+body{
+    background-image: url(../img/homebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* MAIN-BOX */
+.main-box{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 35px;
+}
+.main-box > img{
+    height: 6rem;
+}
+.main-box > h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 2.4rem;
+    margin-bottom: 35px;
+}
+.main-box > p{
+    font-size: 1.4rem;
 }
